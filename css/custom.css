@@ -1,0 +1,103 @@
+/* add your custom css here */
+/* do NOT edit the styles.css file */
+
+body {
+  font-family:'Akshar';
+}
+
+.section-padding { /* Smaller padding for each section */
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+header { /* Hero image */
+    background-image:url(../images/friends1.jpeg);
+                background-color:rgba(0, 0, 0, 0.5);
+                background-blend-mode:darken;
+                background-size:cover;
+                background-repeat:no-repeat;
+                background-position:center center;
+                background-attachment:fixed;
+                height:500px;
+}
+
+.hero1 {
+    font-size:6rem;
+    padding-top:20px;
+}
+
+.hero2 {
+    font-size:3rem;
+    padding-top:30px;
+}
+
+/*.bg-dark {
+  background-color:#373548!important;
+}*/
+
+.bg-purple { /* Dark purple background */
+    background-color:#373548;
+    color:white;
+}
+
+.bg-alt-purple { /* Ligher purple background */
+    background-color:#504c73;
+    color:white;
+}
+
+.large { /* Large header text */
+    font-size: 3rem;
+}
+
+/* Modifying button colors */
+.btn-primary {
+    color: #fff;
+    background-color: #948b4d;
+    border-color: #948b4c;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #5E5932;
+  border-color: #948b4c;
+}
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: #fff;
+  background-color: #5E5932;
+  border-color: #5E5932;
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0);
+}
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0);
+}
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #5E5932;
+  border-color: #5E5932;
+}
+
+/* Link colors for sources page and footer */
+#sources a:link {
+  color: #c7bb67;
+}
+#sources a:visited {
+  color: #c7bb67;
+}
+#sources a:hover {
+  color: #948b4d;
+}
+#sources a:active {
+  color: #6b6538;
+}
+
+/* Additional padding below certain elements */
+.bottom-padding {
+    padding-bottom:20px;
+}
+
+/* Media queries */
+@media (min-width: 992px) {
+  .extra-padding { /* Creates extra padding at larger screen sizes */
+    padding-left:10%;
+    padding-right:10%;
+  }
+}
